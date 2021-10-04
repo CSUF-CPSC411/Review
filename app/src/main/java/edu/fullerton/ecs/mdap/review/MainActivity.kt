@@ -6,10 +6,11 @@ import android.util.Log
 import android.widget.Toast
 import edu.fullerton.ecs.mdap.review.databinding.ActivityMainBinding
 
+// Constant that stores the key for storing and retrieving error message data.
 const val KEY_ERROR = "error"
 
 /**
- * Application for storing reivews on a CrossWalk   volunteer.
+ * Application for storing reivews on a CrossWalk volunteer.
  */
 class MainActivity : AppCompatActivity() {
     // Store the view binding as a property so it is accessible to any method
